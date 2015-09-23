@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="MuLa" namespace="" name="MuLa" abstract="false" final="false" start="7" end="44">
+  <file path="/var/www/html/classes" file="MuLa.class.php" realpath="/var/www/html/classes/MuLa.class.php" size="1070" time="2015-09-23T12:52:54+00:00" unixtime="1443012774" sha1="f4611042b6b771c43a614a4165347c1af8ca6a23" relative="classes/MuLa.class.php"/>
+  <docblock>
+    <description compact="Main class of the application."/>
+    <author value="Jannik / @gltyllthsm / Github: jeyemwey"/>
+  </docblock>
+  <member name="data" type="array" default="" visibility="protected" static="false" line="12">
+    <docblock>
+      <description/>
+      <var description="All the language informations." type="object">
+        <type full="data" namespace="" name="data"/>
+      </var>
+    </docblock>
+  </member>
+  <method name="Hash" start="20" end="22" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Static function to hash ones original context."/>
+      <param description="The original string" type="string" variable="$unhashed"/>
+      <return description="A hash of the string." type="string"/>
+    </docblock>
+    <parameter name="unhashed_" byreference="false" type="{unknown}"/>
+  </method>
+  <constructor name="__construct" start="29" end="31" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Constructor to load the data."/>
+      <param description="Here the data gets passed in. You may want to use @class MuLaFileReader to read language files." type="array" variable="$data_"/>
+      <return type="object">
+        <type full="void" namespace="" name="void"/>
+      </return>
+    </docblock>
+    <parameter name="data_" byreference="false" type="{unknown}"/>
+  </constructor>
+  <method name="get" start="38" end="43" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Method to get one translated Element."/>
+      <param description="The string in its original language" type="string" variable="$orig_"/>
+      <return description="Returns eather the string in its user-designed output language or - if it's not found - it returns the string in the original language." type="string"/>
+    </docblock>
+    <parameter name="orig_" byreference="false" type="{unknown}"/>
+  </method>
+</class>

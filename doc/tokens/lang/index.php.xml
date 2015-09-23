@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<source xmlns="http://xml.phpdox.net/token">
+  <file xmlns="http://xml.phpdox.net/src" path="/var/www/html/lang" file="index.php" realpath="/var/www/html/lang/index.php" size="88" time="2015-09-23T13:36:06+00:00" unixtime="1443015366" sha1="ca275d87e098bd6015ecdf58c68f121d3b2188ff" relative="lang/index.php"/>
+  <line no="1">
+    <token name="T_OPEN_TAG">&lt;?php</token>
+  </line>
+  <line no="2"/>
+  <line no="3">
+    <token name="T_DOC_COMMENT">/**</token>
+  </line>
+  <line no="4">
+    <token name="T_DOC_COMMENT"> * Silent is golden. And a pretty plain trick from the Guys at WordPress.</token>
+  </line>
+  <line no="5">
+    <token name="T_DOC_COMMENT"> */</token>
+  </line>
+</source>

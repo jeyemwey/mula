@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="MuLaFileReader" namespace="" name="MuLaFileReader" abstract="false" final="false" start="8" end="39">
+  <file path="/var/www/html/classes" file="MuLaFileReader.class.php" realpath="/var/www/html/classes/MuLaFileReader.class.php" size="966" time="2015-09-23T13:14:01+00:00" unixtime="1443014041" sha1="50a9df30e794533a060a0d17a8223607d7267ebc" relative="classes/MuLaFileReader.class.php"/>
+  <docblock>
+    <description compact="Helper class to combine parsing language files.">It only contains static classes which return arrays.</description>
+    <author value="Jannik / @gltyllthsm / Github: jeyemwey"/>
+  </docblock>
+  <method name="CSV" start="16" end="38" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="CSV converter"/>
+      <param description="Path to the CSV file" type="string" variable="$path_"/>
+      <param description="Delimiter of the CSV file" type="integer" variable="$delimiter_"/>
+      <return description="The language array which might get into MuLa::__construct or false if file doesn't exist." type="object">
+        <type full="array|bool" namespace="" name="array|bool"/>
+      </return>
+    </docblock>
+    <parameter name="path_" byreference="false" type="{unknown}"/>
+    <parameter name="delimiter_" byreference="false" type="{unknown}"/>
+  </method>
+</class>

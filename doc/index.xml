@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index xmlns="http://xml.phpdox.net/src" basedir="/var/www/html">
+  <namespace name="">
+    
+    
+  <class name="MuLa" src="classes/MuLa.class.php" description="Main class of the application." xml="classes/MuLa.xml"/><class name="MuLaFileReader" src="classes/MuLaFileReader.class.php" description="Helper class to combine parsing language files." xml="classes/MuLaFileReader.xml"/></namespace>
+</index>
