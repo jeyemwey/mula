@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <source xmlns="http://xml.phpdox.net/token">
-  <file xmlns="http://xml.phpdox.net/src" path="/var/www/html/classes" file="MuLa.class.php" realpath="/var/www/html/classes/MuLa.class.php" size="1070" time="2015-09-23T12:52:54+00:00" unixtime="1443012774" sha1="f4611042b6b771c43a614a4165347c1af8ca6a23" relative="classes/MuLa.class.php"/>
+  <file xmlns="http://xml.phpdox.net/src" path="/var/www/html/classes" file="MuLa.class.php" realpath="/var/www/html/classes/MuLa.class.php" size="1071" time="2015-09-23T20:20:49+00:00" unixtime="1443039649" sha1="c47d8a1e39d4d1421bb3cae094a55e6ccccc67f4" relative="classes/MuLa.class.php"/>
   <line no="1">
     <token name="T_OPEN_TAG">&lt;?php</token>
   </line>
@@ -58,7 +58,7 @@
     <token name="T_DOC_COMMENT">	 * Static function to hash ones original context.</token>
   </line>
   <line no="17">
-    <token name="T_DOC_COMMENT">	 * @param string $unhashed The original string</token>
+    <token name="T_DOC_COMMENT">	 * @param string $unhashed_ The original string</token>
   </line>
   <line no="18">
     <token name="T_DOC_COMMENT">	 * @return string A hash of the string.</token>

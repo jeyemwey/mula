@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class xmlns="http://xml.phpdox.net/src" full="MuLa" namespace="" name="MuLa" abstract="false" final="false" start="7" end="44">
-  <file path="/var/www/html/classes" file="MuLa.class.php" realpath="/var/www/html/classes/MuLa.class.php" size="1070" time="2015-09-23T12:52:54+00:00" unixtime="1443012774" sha1="f4611042b6b771c43a614a4165347c1af8ca6a23" relative="classes/MuLa.class.php"/>
+  <file path="/var/www/html/classes" file="MuLa.class.php" realpath="/var/www/html/classes/MuLa.class.php" size="1071" time="2015-09-23T20:20:49+00:00" unixtime="1443039649" sha1="c47d8a1e39d4d1421bb3cae094a55e6ccccc67f4" relative="classes/MuLa.class.php"/>
   <docblock>
     <description compact="Main class of the application."/>
     <author value="Jannik / @gltyllthsm / Github: jeyemwey"/>
@@ -16,7 +16,7 @@
   <method name="Hash" start="20" end="22" abstract="false" final="false" static="true" visibility="public">
     <docblock>
       <description compact="Static function to hash ones original context."/>
-      <param description="The original string" type="string" variable="$unhashed"/>
+      <param description="The original string" type="string" variable="$unhashed_"/>
       <return description="A hash of the string." type="string"/>
     </docblock>
     <parameter name="unhashed_" byreference="false" type="{unknown}"/>

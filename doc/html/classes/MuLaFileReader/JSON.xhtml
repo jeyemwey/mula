@@ -39,9 +39,9 @@
             <a href="../../classes.xhtml#"/>
           </li>
           <li class="separator">
-            <a title="MuLa" href="../../classes/MuLa.xhtml">MuLa</a>
+            <a title="MuLaFileReader" href="../../classes/MuLaFileReader.xhtml">MuLaFileReader</a>
           </li>
-          <li class="separator">Hash</li>
+          <li class="separator">JSON</li>
         </ul>
       </div>
       <nav class="box">
@@ -59,32 +59,33 @@
             <a href="#return">Return</a>
           </li>
           <li>
-            <a href="../../source/classes/MuLa.class.php.xhtml#line20">Source</a>
+            <a href="../../source/classes/MuLaFileReader.class.php.xhtml#line46">Source</a>
           </li>
         </ul>
       </nav>
       <section>
-        <h1><small>MuLa::</small>Hash</h1>
-        <h4>Static function to hash ones original context.</h4>
+        <h1><small>MuLaFileReader::</small>JSON</h1>
+        <h4>JSON interpreter</h4>
         <p/>
         <ul/>
         <h2 id="signature">Signature</h2>
         <div class="styled synopsis">
-          <code>public function Hash(string
-        $unhashed_ )
+          <code>public function JSON(string
+        $path_ )
             </code>
         </div>
         <h2 id="parameterlist">Parameters</h2>
         <dl class="styled">
-          <dt><code>$unhashed_</code>
+          <dt><code>$path_</code>
                 —
                 string</dt>
-          <dd>The original string</dd>
+          <dd>Path to JSON file</dd>
         </dl>
         <h2 id="return">Returns</h2>
         <dl class="styled">
-          <dt>string</dt>
-          <dd>A hash of the string.</dd>
+          <dt>array|bool</dt>
+          <dd>The language array or false if there was an error<br/>
+        </dd>
         </dl>
       </section>
     </div>

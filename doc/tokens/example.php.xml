@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <source xmlns="http://xml.phpdox.net/token">
-  <file xmlns="http://xml.phpdox.net/src" path="/var/www/html" file="index.php" realpath="/var/www/html/index.php" size="555" time="2015-09-23T13:14:41+00:00" unixtime="1443014081" sha1="755002a4093f3d198d8bd468bdd6c4a2f2565376" relative="index.php"/>
+  <file xmlns="http://xml.phpdox.net/src" path="/var/www/html" file="example.php" realpath="/var/www/html/example.php" size="379" time="2015-09-23T20:21:16+00:00" unixtime="1443039676" sha1="bd0a600b14a9218df58e0bda90b125d99d5b7cb6" relative="example.php"/>
   <line no="1">
     <token name="T_OPEN_TAG">&lt;?php</token>
   </line>
@@ -14,63 +14,32 @@
   </line>
   <line no="4"/>
   <line no="5">
-    <token name="T_DOC_COMMENT">/**</token>
-  </line>
-  <line no="6">
-    <token name="T_DOC_COMMENT"> * Testing environment. For easing porpuses I'm using spl-autoloading to load the classes dynamicly.</token>
-  </line>
-  <line no="7">
-    <token name="T_DOC_COMMENT"> * @author Jannik / @gltyllthsm / Github: jeyemwey</token>
-  </line>
-  <line no="8">
-    <token name="T_DOC_COMMENT"> */</token>
-    <token name="T_WHITESPACE"> </token>
-  </line>
-  <line no="9">
-    <token name="T_STRING">spl_autoload_register</token>
-    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
-    <token name="T_FUNCTION">function</token>
-    <token name="T_WHITESPACE"> </token>
-    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
-    <token name="T_VARIABLE">$class</token>
-    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
-    <token name="T_WHITESPACE"> </token>
-    <token name="T_PHPDOX_OPEN_CURLY">{</token>
-  </line>
-  <line no="10">
-    <token name="T_WHITESPACE">    </token>
     <token name="T_INCLUDE">include</token>
     <token name="T_WHITESPACE"> </token>
-    <token name="T_CONSTANT_ENCAPSED_STRING">'classes/'</token>
-    <token name="T_WHITESPACE"> </token>
-    <token name="T_PHPDOX_DOT">.</token>
-    <token name="T_WHITESPACE"> </token>
-    <token name="T_VARIABLE">$class</token>
-    <token name="T_WHITESPACE"> </token>
-    <token name="T_PHPDOX_DOT">.</token>
-    <token name="T_WHITESPACE"> </token>
-    <token name="T_CONSTANT_ENCAPSED_STRING">'.class.php'</token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">"classes/MuLa.class.php"</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="11">
-    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
-    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+  <line no="6">
+    <token name="T_INCLUDE">include</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">"classes/MuLaFileReader.class.php"</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="12"/>
-  <line no="13">
+  <line no="7"/>
+  <line no="8"/>
+  <line no="9">
     <token name="T_DOC_COMMENT">/**</token>
   </line>
-  <line no="14">
+  <line no="10">
     <token name="T_DOC_COMMENT"> * Create new instance of MuLa with language-code from your DB.</token>
   </line>
-  <line no="15">
+  <line no="11">
     <token name="T_DOC_COMMENT"> * @var MuLa </token>
   </line>
-  <line no="16">
+  <line no="12">
     <token name="T_DOC_COMMENT"> */</token>
   </line>
-  <line no="17">
+  <line no="13">
     <token name="T_VARIABLE">$MuLa</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_PHPDOX_EQUAL">=</token>
@@ -93,17 +62,17 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="18"/>
-  <line no="19">
+  <line no="14"/>
+  <line no="15">
     <token name="T_DOC_COMMENT">/**</token>
   </line>
-  <line no="20">
+  <line no="16">
     <token name="T_DOC_COMMENT"> * Display example string.</token>
   </line>
-  <line no="21">
+  <line no="17">
     <token name="T_DOC_COMMENT"> */</token>
   </line>
-  <line no="22">
+  <line no="18">
     <token name="T_ECHO">echo</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_VARIABLE">$MuLa</token>

@@ -14,7 +14,7 @@ class MuLa {
 
 	/**
 	 * Static function to hash ones original context.
-	 * @param string $unhashed The original string
+	 * @param string $unhashed_ The original string
 	 * @return string A hash of the string.
 	 */
 	public static function Hash($unhashed_) {

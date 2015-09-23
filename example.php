@@ -2,13 +2,9 @@
 
 header("charset: utf-8");
 
-/**
- * Testing environment. For easing porpuses I'm using spl-autoloading to load the classes dynamicly.
- * @author Jannik / @gltyllthsm / Github: jeyemwey
- */ 
-spl_autoload_register(function ($class) {
-    include 'classes/' . $class . '.class.php';
-});
+include "classes/MuLa.class.php";
+include "classes/MuLaFileReader.class.php";
+
 
 /**
  * Create new instance of MuLa with language-code from your DB.
